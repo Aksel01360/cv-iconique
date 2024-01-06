@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&family=Raleway:ital,wght@0,100;0,200;0,900;1,100;1,200;1,300&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../font/Raleway-VariableFont_wght.ttf"), format('TrueType'); }
+
+h1, h2, h3, h4{
+    font-family: 'Lato', sans-serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    background-color: #782221;
+    width: 1160px; 
+    margin: auto;
+
+  }
+
+  #exp{
+    margin-left: 50px;
+    margin-bottom: 100px;
+    background-color: white;
+  }
+  #pp {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #dbc2a4;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 20px;
+  }
+
+  h1,
+  h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+
+  #contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2c1d27;
+    width: 1160px;
+    color: white;
+} 
+
+#base{
+    
+    width: 1160px;
+    display: grid;
+    background-color: #782221;
+    margin: auto;
+    grid-template-columns: repeat(4,290px);
+    grid-template-rows: auto
+
+}
+
+footer{
+    display: grid;
+    background-color: #782221;
+    margin: auto;
+    width: 1160px;
+}
+
+#logo{
+display: flex;
+    justify-content: center;
+}
+#yih{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    color: black;
+    background-color: #dbc2a4;
+    border-left: solid 7px;
+    border-color: #782221
+}
+.adresse{
+    text-decoration: none;
+    color: white;
+}
+.mail{
+    text-decoration: none;
+    color: white;
+}
+.tel{
+    text-decoration: none;
+    color: white;
+}
+#info{
+    color: white;
+}
+#grc {
+margin-left: 30px;
+margin-right: 10px;
+
+}
+#titi{
+    text-indent: 30px;
+    margin-left: 20px;
+}
+#pp:hover{
+    cursor: zoom-in;
+     }
+
+    .adresse:hover{
+        text-decoration: underline;
+    }
+    .mail:hover{
+        text-decoration: underline;
+    }
+    .tel:hover{
+        text-decoration: underline;
+    }
+    .isk:hover{
+border-right: solid 7px;
+border-color: #782221;
+
+    }
+    #logo:hover{
+        opacity: 0.5;
+    }
+
+
+
+
+
+
+
+
+  
